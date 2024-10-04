@@ -1,0 +1,10 @@
+<div class="container flex justify-center items-center flex-col">
+  <div class="w-48 h-24 bg-red-300"></div>
+  <div>My Jobs</div>
+  <div
+    *ngFor="let job of jobList"
+    class="flex justify-center items-center flex-row"
+  >
+    <jobcard [job]="job"></jobcard>
+  </div>
+</div>
