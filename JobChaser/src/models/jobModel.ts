@@ -1,7 +1,8 @@
 export interface JobModel {
-  name: string;
-  description: string;
-  url: string;
+  position: string;
+  companyName: string;
+  applyDate: Date;
   status: string;
   statusColor: string;
+  url: string;
 }
